@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ServiceOneController {
 
-    @Value("${message:Hello default")
+    @Value("${message:Hello default}")
     private String message;
 
 
