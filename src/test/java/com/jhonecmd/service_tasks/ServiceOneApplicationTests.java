@@ -1,4 +1,4 @@
-package com.jhonecmd.service_one;
+package com.jhonecmd.service_tasks;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

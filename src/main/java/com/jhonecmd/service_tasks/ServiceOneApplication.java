@@ -1,4 +1,4 @@
-package com.jhonecmd.service_one;
+package com.jhonecmd.service_tasks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
