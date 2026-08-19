@@ -19,6 +19,6 @@ public class TasksEntity {
     private String email;
     private String description;
     private LocalDateTime dueDate;
-    private Boolean notified;
+    private Boolean notified = false;
 
 }

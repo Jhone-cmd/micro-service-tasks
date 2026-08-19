@@ -1,4 +1,4 @@
-package com.jhonecmd.service_tasks.start;
+package com.jhonecmd.service_tasks.service;
 
 import com.jhonecmd.service_tasks.model.TasksEntity;
 import com.jhonecmd.service_tasks.repository.TasksRepository;
