@@ -13,6 +13,6 @@ import java.util.UUID;
 @Repository
 public interface TasksRepository extends JpaRepository<TasksEntity, UUID> {
     Optional<TasksEntity> findByEmail(String email);
-    @Query("SELECT t from tasks t where t.dueDate <= :dealine AND t.notified = false")
+    @Query("SELECT t from tasks t where t.dueDate <= :deadline AND t.notified = false")
     List<TasksEntity> findTasksDueWithInDeadline(LocalDateTime deadline);
 }
