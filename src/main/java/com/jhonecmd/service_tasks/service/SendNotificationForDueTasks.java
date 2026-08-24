@@ -26,6 +26,7 @@ public class SendNotificationForDueTasks {
                     task.getEmail());
             notificationClient.sendNotification(request);
             task.setNotified(true);
+            tasksRepository.save(task);
         }
     }
 }
