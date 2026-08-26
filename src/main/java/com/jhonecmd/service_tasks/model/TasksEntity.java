@@ -25,6 +25,8 @@ public class TasksEntity {
     private String email;
     private String description;
     private LocalDateTime dueDate;
+
+    @Builder.Default
     private Boolean notified = false;
 
 }
